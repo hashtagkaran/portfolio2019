@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam|Permanent+Marker&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.slideText{
+    text-align: right;
+    background: rgba(0,0,0,.2);
+    padding: 10px;
+    bottom: 50%;
+    top: 20%;
+}
+
+
+.slideText h3{
+    font-size: 50px;
+}
+
+.slideText p{
+    font-size: 25px;
+}
+
+
+
+#box2 {
+    box-sizing: border-box;
+    color:#444;
+    text-align: center;
+    margin
+    /* margin-top: -110px; */
+        background: #fff;
+}
+
+#box2 .container{
+    padding: 100px 0px;
+}
+#box2 h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#box2 p{
+    font-size: 18px;
+}
+#box2 img{
+    background: #fff;
+}
+
+#box2 button{
+    font-size: 20px;
+    padding: 10px;
+}
+
+#box2 .moreBtn{
+    text-align: left;
+    color: #444;
+    padding: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #444;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+#box2 .moreBtn:hover{
+    background: #2ecc71;
+    color: #fff;
+    transition: .3s;
+}
+.box3{
+    padding: 50px;
+    background: #ecf0f1;
+}
+.box3 h3{
+    padding: 50px 0 0 0;
+    font-size: 40px;
+}
+#box3 .row {
+    /* background: red; */
+    text-align: center;
+    padding-top: 50px;;
+}
+
+.box3  .card{
+    border: 1px solid #bdc3c7;
+    padding: 0px 0px 10px 0px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.box3 .card-body{
+    padding: 30px 10px;
+}
+
+.box3 .card-text {
+    font-size: 17px;
+}
+.box3 .btn{
+    background: #2ecc71;
+}
+.box3 .card:hover{
+   background: #27ae60;
+   color: #fff;
+   transition: .3s;
+}
+
+/* box4 */
+/* skills */
+
+#box4 h1, #box5 h1{
+    font-size: 45px;
+    
+}
+
+#box4{
+    padding: 100px;
+    width:100%;
+}
+.box4box h3{
+    padding: 10px;
+    font-weight: bold;
+    
+}
+.box4box ul li{
+    display: inline-block;
+    padding: 10px;
+    background: #34495e;
+    color: #f2f2f2;
+    margin-right: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+
+
+/* box5 */
+/* services */
+#box5{
+    padding: 50px 30px;
+      background: url(../img/abs1.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box5{
+  
+}
+
+.box5box{
+    margin-top: 50px; 
+}
+
+.colsBasic{
+    /* border: 1px solid #222; */
+    padding: 30px;
+    margin: auto;
+    /* width: 100%;  */
+    background: #fff;
+    -webkit-box-shadow: 0px 6px 10px -4px rgba(163,163,163,1);
+    -moz-box-shadow: 0px 6px 10px -4px rgba(163,163,163,1);
+    box-shadow: 0px 6px 10px -4px rgba(163,163,163,1);
+}
+.colsBasic i{
+    font-size: 50px;
+}
+.colsBasic p{
+    font-size: 16px;
+}
+
+.colsBasic:hover{ 
+   /* background: #34495e; */
+   background: #5f27cd;
+    color: #fff;
+    transition: .3s;
+}
+
+#box5 a{
+    color: #222;
+    border: 1px solid #222;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+#box5 .colsBasic:hover #box5 a{
+    color: #fff;
+
+}
+
+
+/* media queries for index page */
+@media only screen and (max-width:500px){
+    #box4{
+        width: 80%;
+        padding: 70px 50px;
+        margin:auto;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    #box2 .container{
+        /* padding: 100px 50px; */
+        /* margin-left: -10px;/ */
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width : 1000px){
+    #box3 .row .card{
+        margin-top: 20px;
+    }
+}

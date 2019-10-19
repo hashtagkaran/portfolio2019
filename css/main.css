@@ -1,0 +1,133 @@
+/* general */
+
+/* fonts here */
+@font-face{
+    font-family: 'century gothic';
+    src: url(../fonts/CenturyGothic.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Kalam|Permanent+Marker&display=swap');
+
+body{
+    /* background: #fff; */
+}
+
+
+#header{
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+    background: url(../img/backFoot.png);
+    background-size: cover;
+    font-family: 'century gothic', sans-serif ;
+}
+
+#inHeader{
+    margin: 0;
+    padding: 0;
+    background: rgba(0,0,0,0.9);
+    padding: 20px;
+}
+
+#header h1{
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+#header span{
+    font-weight: 900;
+}
+
+#header section{
+    text-align: right;
+}
+#header a{
+    margin-top:10px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+/* footer  */
+footer{
+    text-align: center;
+    color: #f3f3f3;
+    background: #333;
+    padding: 10px 5px 2px 5px;
+    letter-spacing: 2px;
+}
+
+
+/* hedear line */
+.headerLine {
+  width: 160px;
+  height: 3px;
+  display: inline-block;
+  background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+}
+
+
+.underline::after{
+  content:'';
+  height:3px;
+  width:60%;
+  background:#ff4757;
+  position:absolute;
+  top: 100px;
+  left:calc(50% - 30%);
+  bottom:-5px;
+}
+
+
+
+#box6{
+    
+    color: #fff;
+    background: url(../img/backFoot.png);
+    background-size: cover;
+    letter-spacing: 1px;    
+
+}
+
+.box6{
+    background: rgba(0,0,0,.9);
+    padding: 30px;
+}
+
+#box6 .row ul li{
+    list-style-type: none;
+    font-size: 16px;
+    padding: 5px;
+}
+
+#box6 a{
+    color: #bdc3c7;
+    text-decoration: none;
+}
+
+#box6 h3{
+    padding: 5px;
+}
+
+
+
+/* media query  */
+
+/* header media query */
+@media only screen and (max-width: 500px) {
+    header h1{
+        font-size: 35px;
+    }    
+
+    header section{
+    text-align: center;
+    padding-top: 20px;
+    }
+    
+}
+
