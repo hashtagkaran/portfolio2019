@@ -86,9 +86,10 @@ footer{
 
 
 #box6{
-    
+    font-weight: 100;
     color: #fff;
     background: url(../img/backFoot.png);
+    background-attachment: fixed;
     background-size: cover;
     letter-spacing: 1px;    
 
